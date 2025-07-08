@@ -28,11 +28,11 @@ class FormCard extends StatelessWidget {
           children: <Widget>[
             Text("Login",
                 style: TextStyle(
-                    fontSize: ScreenUtil.getInstance().setSp(45),
+                    fontSize: 45.sp, // ✅
                     fontFamily: "Poppins-Bold",
                     letterSpacing: .6)),
             SizedBox(
-              height: ScreenUtil.getInstance().setHeight(30),
+              height: 30.h, // ✅ correct
             ),
             Text("Username",
                 style: TextStyle(
