@@ -37,19 +37,19 @@ class FormCard extends StatelessWidget {
             Text("Username",
                 style: TextStyle(
                     fontFamily: "Poppins-Medium",
-                    fontSize: ScreenUtil.getInstance().setSp(26))),
+                    fontSize: ScreenUtil().setSp(26))),
             TextField(
               decoration: InputDecoration(
                   hintText: "username",
                   hintStyle: TextStyle(color: Colors.grey, fontSize: 12.0)),
             ),
             SizedBox(
-              height: ScreenUtil.getInstance().setHeight(30),
+              height: ScreenUtil().setHeight(30),
             ),
             Text("PassWord",
                 style: TextStyle(
                     fontFamily: "Poppins-Medium",
-                    fontSize: ScreenUtil.getInstance().setSp(26))),
+                    fontSize: ScreenUtil().setSp(26))),
             TextField(
               obscureText: true,
               decoration: InputDecoration(
@@ -57,7 +57,7 @@ class FormCard extends StatelessWidget {
                   hintStyle: TextStyle(color: Colors.grey, fontSize: 12.0)),
             ),
             SizedBox(
-              height: ScreenUtil.getInstance().setHeight(35),
+              height: ScreenUtil().setHeight(35),
             ),
             Row(
               mainAxisAlignment: MainAxisAlignment.end,
@@ -67,7 +67,7 @@ class FormCard extends StatelessWidget {
                   style: TextStyle(
                       color: Colors.blue,
                       fontFamily: "Poppins-Medium",
-                      fontSize: ScreenUtil.getInstance().setSp(28)),
+                      fontSize: ScreenUtil().setSp(28)),
                 )
               ],
             )
